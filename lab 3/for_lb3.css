@@ -15,9 +15,19 @@ header {
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.video-section {
+    flex-grow: 2;
     padding: 20px;
+}
+
+.sidebar {
+    flex-shrink: 1;
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
 footer {
@@ -26,4 +36,5 @@ footer {
     text-align: center;
     box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
 }
+
 
