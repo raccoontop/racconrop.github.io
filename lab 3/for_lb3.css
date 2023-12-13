@@ -22,6 +22,10 @@ main {
     flex-grow: 2;
     padding: 20px;
 }
+.preview{
+    padding: 10px 20px;
+    margin: 4px 2px;
+}
 
 .sidebar {
     display: flex;
