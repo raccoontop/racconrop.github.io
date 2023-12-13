@@ -26,7 +26,16 @@ main {
 .sidebar {
     display: flex;
     flex-direction: column
+    width: 200px;
 }
+
+.item {
+            display: inline-block;
+            padding: 20px;
+            background-color: lightgray;
+            margin: 10px;
+            border: 1px solid gray; 
+        }
 
 .my-button {
             background-color: #4CAF50;
@@ -39,4 +48,5 @@ main {
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 4px;
+            width: 100%
         }
