@@ -21,10 +21,13 @@ main {
 .video-section {
     flex-grow: 2;
     padding: 20px;
+    flex-direction: column;
+    flex: wrap;
+    align-content: space-evenly;
 }
 .preview{
-    padding: 10px 20px;
-    margin: 4px 2px;
+    height: 200px;
+    width: 200px;
 }
 
 .sidebar {
