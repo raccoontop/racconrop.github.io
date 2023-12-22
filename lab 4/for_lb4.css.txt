@@ -1,0 +1,54 @@
+body {
+    font-family: 'YourCustomFont', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.planner {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "grid"
+        "checkboxes"
+        "input-fields";
+    gap: 10px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-container {
+    grid-area: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Змініть кількість колонок за необхідністю */
+    gap: 10px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.checkboxes {
+    grid-area: checkboxes;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.input-fields {
+    grid-area: input-fields;
+}
+
+.editable-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}

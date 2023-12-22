@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Планер</title>
+</head>
+<body>
+    <div class="planner">
+        <div class="header">Мій Планер</div>
+        
+        <div class="grid-container">
+            <div class="item">Подія 1</div>
+            <div class="item">Подія 2</div>
+
+        </div>
+        
+        <div class="checkboxes">
+            <input type="checkbox" id="checkbox1" class="checkbox">
+            <label for="checkbox1">Подія 1</label>
+            
+            <input type="checkbox" id="checkbox2" class="checkbox">
+            <label for="checkbox2">Подія 2</label>
+        </div>
+        
+        <div class="input-fields">
+            <label for="event1">Подія 1:</label>
+            <input type="text" id="event1" class="editable-field" placeholder="Введіть подію 1">
+            
+            <label for="event2">Подія 2:</label>
+            <input type="text" id="event2" class="editable-field" placeholder="Введіть подію 2">
+        </div>
+    </div>
+</body>
+</html>
