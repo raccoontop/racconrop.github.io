@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Планер</title>
+    <title>Блокнот</title>
 </head>
 <body>
-    <div class="planner">
-        <div class="header">Мій Планер</div>
+    <div class="notebook">
+        <div class="header">Назва блокнота</div>
         
-        <div class="grid-container">
-            <div class="item">Подія 1</div>
-            <div class="item">Подія 2</div>
-
-        </div>
-        
-        <div class="checkboxes">
-            <input type="checkbox" id="checkbox1" class="checkbox">
-            <label for="checkbox1">Подія 1</label>
+        <div class="content">
+            <div class="sidebar">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox1" class="checkbox">
+                    <label for="checkbox1">Завдання 1</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox2" class="checkbox">
+                    <label for="checkbox2">Завдання 2</label>
+                </div>
+                <!-- Додайте інші чекбокси за необхідністю -->
+            </div>
             
-            <input type="checkbox" id="checkbox2" class="checkbox">
-            <label for="checkbox2">Подія 2</label>
-        </div>
-        
-        <div class="input-fields">
-            <label for="event1">Подія 1:</label>
-            <input type="text" id="event1" class="editable-field" placeholder="Введіть подію 1">
+            <div class="days">
+                <div class="day">Пн</div>
+                <div class="day">Вт</div>
+                <div class="day">Ср</div>
+                
+                <div class="day weekend">Чт</div>
+                <div class="day weekend">Пт</div>
+                
+                <div class="day weekend">Сб</div>
+                <div class="day weekend">Нд</div>
+            </div>
             
-            <label for="event2">Подія 2:</label>
-            <input type="text" id="event2" class="editable-field" placeholder="Введіть подію 2">
+            <div class="tasks">
+                <div class="task">Завдання 1</div>
+                <div class="task">Завдання 2</div>
+                <!-- Додайте інші завдання за необхідністю -->
+            </div>
         </div>
     </div>
 </body>
 </html>
+
