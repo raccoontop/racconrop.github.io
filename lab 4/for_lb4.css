@@ -29,12 +29,24 @@ body {
     border-right: 1px solid #ddd;
 }
 
+.section-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 .task {
     margin-bottom: 10px;
 }
 
 .checkbox {
     cursor: pointer;
+}
+
+.task-input {
+    width: 80%;
+    margin-left: 5px;
 }
 
 .calendar {
@@ -55,6 +67,7 @@ body {
 
 .days {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .day {
@@ -63,5 +76,16 @@ body {
     padding: 10px;
     text-align: center;
 }
+
+.day-top,
+.day-bottom {
+    border-top: 1px solid #ddd;
+    padding: 5px;
+}
+
+.weekend {
+    background-color: #f7f7f7;
+}
+
 
 
