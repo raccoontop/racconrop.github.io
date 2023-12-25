@@ -5,30 +5,31 @@ body {
     box-sizing: border-box;
 }
 
-.planner {
+.planner-container {
     width: 80%;
     margin: 20px auto;
     border: 1px solid #ddd;
     padding: 10px;
 }
 
-.header {
+.planner-header {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.content {
+.planner-content {
     display: flex;
-    border-top: 1px solid #ddd; /* Додаємо лінію */
 }
 
 .sidebar {
-    width: 100px;
+    width: 200px;
     padding: 10px;
+    border-right: 1px solid #ddd;
 }
 
-.checkbox-item {
+.task {
     margin-bottom: 10px;
 }
 
@@ -36,31 +37,31 @@ body {
     cursor: pointer;
 }
 
-.days {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    text-align: center;
+.calendar {
+    flex: 1;
+    padding: 10px;
+}
+
+.weekdays {
+    display: flex;
 }
 
 .day {
+    flex: 1;
     border: 1px solid #ddd;
     padding: 10px;
-}
-
-.weekend {
-    background-color: #f7f7f7;
-}
-
-.tasks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
     text-align: center;
 }
 
-.task {
+.days {
+    display: flex;
+}
+
+.day {
+    flex: 1;
     border: 1px solid #ddd;
     padding: 10px;
+    text-align: center;
 }
+
 
