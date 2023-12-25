@@ -20,6 +20,7 @@ body {
 
 .content {
     display: flex;
+    border-top: 1px solid #ddd; /* Додаємо лінію */
 }
 
 .sidebar {
@@ -62,5 +63,4 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
 }
-
 
