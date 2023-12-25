@@ -28,7 +28,7 @@ header {
 }
 
 .logo span {
-    font-size: 1em; /* Тут можна вказати інший розмір шрифту, який вам підходить */
+    font-size: 1em; 
 }
 
 .search-box {
@@ -57,6 +57,7 @@ header {
 
 .main {
     display: flex;
+    align-items: flex-start;
 }
 
 .video-section {
