@@ -15,8 +15,13 @@ header {
 
 .logo {
             flex: 1; 
+      }
+.logo img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
         }
-
 .search-box {
             flex: 2; 
             padding: 5px;
@@ -83,4 +88,9 @@ main {
             cursor: pointer;
             border-radius: 4px;
             width: 100%
+        }
+.sidebar img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
         }
