@@ -29,14 +29,18 @@ body {
     border-right: 1px solid #ddd;
 }
 
+.section {
+    margin-bottom: 20px;
+}
+
 .section-header {
-    font-size: 16px;
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .task {
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -45,8 +49,10 @@ body {
 }
 
 .task-input {
-    width: 80%;
-    margin-left: 5px;
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .calendar {
@@ -65,6 +71,10 @@ body {
     text-align: center;
 }
 
+.weekend {
+    background-color: #f7f7f7;
+}
+
 .days {
     display: flex;
     flex-wrap: wrap;
@@ -75,16 +85,6 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-}
-
-.day-top,
-.day-bottom {
-    border-top: 1px solid #ddd;
-    padding: 5px;
-}
-
-.weekend {
-    background-color: #f7f7f7;
 }
 
 
