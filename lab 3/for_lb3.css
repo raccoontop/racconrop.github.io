@@ -55,10 +55,10 @@ header {
     cursor: pointer;
 }
 
-main {
+.main {
+    .main {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-grow: 1;
 }
 
 .video-section {
