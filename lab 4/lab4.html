@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="for_lb4.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Планер</title>
 </head>
 <body>
@@ -12,14 +12,48 @@
 
         <div class="planner-content">
             <div class="sidebar">
+                <div class="section-header">Три цілі</div>
                 <div class="task">
-                    <input type="checkbox" id="checkbox1" class="checkbox">
-                    <label for="checkbox1">Завдання 1</label>
+                    <input type="checkbox" id="goalCheckbox1" class="checkbox">
+                    <label for="goalCheckbox1"></label>
+                    <input type="text" id="goalInput1" class="task-input" placeholder="Моя перша ціль">
                 </div>
                 <div class="task">
-                    <input type="checkbox" id="checkbox2" class="checkbox">
-                    <label for="checkbox2">Завдання 2</label>
+                    <input type="checkbox" id="goalCheckbox2" class="checkbox">
+                    <label for="goalCheckbox2"></label>
+                    <input type="text" id="goalInput2" class="task-input" placeholder="Моя друга ціль">
                 </div>
+                <div class="task">
+                    <input type="checkbox" id="goalCheckbox3" class="checkbox">
+                    <label for="goalCheckbox3"></label>
+                    <input type="text" id="goalInput3" class="task-input" placeholder="Моя третя ціль">
+                </div>
+
+                <div class="section-header">Усе інше</div>
+                <div class="task">
+                    <input type="checkbox" id="otherCheckbox1" class="checkbox">
+                    <label for="otherCheckbox1"></label>
+                    <input type="text" id="otherInput1" class="task-input" placeholder="Інше завдання 1">
+                </div>
+                <div class="task">
+                    <input type="checkbox" id="otherCheckbox2" class="checkbox">
+                    <label for="otherCheckbox2"></label>
+                    <input type="text" id="otherInput2" class="task-input" placeholder="Інше завдання 2">
+                </div>
+                <!-- Додайте інші завдання за необхідністю -->
+
+                <div class="section-header">Наступний тиждень</div>
+                <div class="task">
+                    <input type="checkbox" id="nextWeekCheckbox1" class="checkbox">
+                    <label for="nextWeekCheckbox1"></label>
+                    <input type="text" id="nextWeekInput1" class="task-input" placeholder="Завдання на наступний тиждень 1">
+                </div>
+                <div class="task">
+                    <input type="checkbox" id="nextWeekCheckbox2" class="checkbox">
+                    <label for="nextWeekCheckbox2"></label>
+                    <input type="text" id="nextWeekInput2" class="task-input" placeholder="Завдання на наступний тиждень 2">
+                </div>
+                <!-- Додайте інші завдання за необхідністю -->
             </div>
 
             <div class="calendar">
@@ -27,15 +61,17 @@
                     <div class="day">Пн</div>
                     <div class="day">Вт</div>
                     <div class="day">Ср</div>
-                    <div class="day">Чт</div>
-                    <div class="day">Пт</div>
-                    <div class="day">Сб</div>
-                    <div class="day">Нд</div>
                 </div>
 
                 <div class="days">
-                    <div class="day">1</div>
-                    <div class="day">2</div>
+                    <div class="day">
+                        <div class="day-top">Чт</div>
+                        <div class="day-bottom">Пт</div>
+                    </div>
+                    <div class="day">
+                        <div class="day-top">Сб</div>
+                        <div class="day-bottom weekend">Нд</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -43,7 +79,4 @@
 </body>
 </html>
 
-
-</body>
-</html>
 
