@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-.notebook {
+.planner {
     width: 80%;
     margin: 20px auto;
     border: 1px solid #ddd;
@@ -23,7 +23,8 @@ body {
 }
 
 .sidebar {
-    flex: 1;
+    width: 100px;
+    padding: 10px;
 }
 
 .checkbox-item {
@@ -61,4 +62,5 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
 }
+
 
