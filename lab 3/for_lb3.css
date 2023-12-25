@@ -57,15 +57,17 @@ header {
 
 .main {
     display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .video-section {
-    flex: 2;
+    flex-grow: 2;
     padding: 20px;
-    flex-direction: column;
+    display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
+    gap: 20px;
 }
 
 .preview {
@@ -88,7 +90,6 @@ header {
     border: 1px solid gray;
     background-color: #fff;
     color: #000;
-    margin-bottom: 10px;
 }
 
 .my-button {
