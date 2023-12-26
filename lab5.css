@@ -39,7 +39,7 @@ img {
     background-color: #f0f0f0;
     padding: 15px;
     margin-top: 20px;
-    border-radius: 10px
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ img {
     background-color: #f0f0f0;
     padding: 15px;
     margin-top: 20px;
-    border-radius: 10px
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -62,7 +62,8 @@ img {
     padding: 10px;
     margin-bottom: 20px;
     transition: background-color 0.3s ease;
-    border-radius: 10px
+    border-radius: 10px;
+    border: 2px solid #1f1f1f;
 }
 
 .work-item:hover {
@@ -79,14 +80,14 @@ img {
 }
 
 footer {
-    background-color: #333;
+    background-color: #64b5cb;
     color: #fff;
     padding: 1em;
     text-align: center;
 }
 
 footer a {
-    color: #64b5cb;
+    color: #fff;
     text-decoration: none;
 }
 
