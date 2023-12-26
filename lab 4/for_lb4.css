@@ -1,15 +1,22 @@
 body {
-    font-family: 'YourCustomFont', sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.background {
+    background-color: #f0f0f0; 
+    min-height: 100vh; 
+    padding: 20px; 
+}
+
 .planner-container {
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
     border: 1px solid #ddd;
     padding: 10px;
+    background-color: #fff; 
 }
 
 .planner-header {
@@ -58,17 +65,25 @@ body {
 
 .weekdays {
     display: flex;
-    justify-content: space-around; 
-    margin-bottom: 10px; 
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .weekdays .day {
+    position: relative;
     flex: 1;
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    height: 80px; 
-    margin: 5px; 
+    height: 80px;
+    margin: 5px;
+}
+
+.checkbox {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
 }
 
 .day-top,
