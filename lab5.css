@@ -47,10 +47,14 @@ img {
     margin-top: 20px;
 }
 
-#work-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.work-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.work-item:hover {
+    background-color: #ddd;
 }
 
 #work-container a {
@@ -73,5 +77,6 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
 
 
