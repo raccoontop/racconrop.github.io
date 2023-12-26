@@ -26,8 +26,40 @@ section {
 }
 
 img {
-    max-width: 100%;
+    max-width: 15%; 
     height: auto;
+    border-radius: 10px; 
+}
+
+#about {
+    text-align: center; 
+}
+
+#practical-work,
+#labs {
+    border: 2px solid #333; 
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#practical-work:hover,
+#labs:hover {
+    background-color: #f0f0f0; 
+}
+
+#work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#work-container a {
+    text-decoration: none;
+    color: #333;
+}
+
+#work-container a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -41,3 +73,4 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
