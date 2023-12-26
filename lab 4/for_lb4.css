@@ -58,25 +58,17 @@ body {
 
 .weekdays {
     display: flex;
+    justify-content: space-around; 
+    margin-bottom: 10px; 
 }
 
-.day {
+.weekdays .day {
     flex: 1;
     border: 1px solid #ddd;
-    padding: 20px; 
+    padding: 10px;
     text-align: center;
-}
-
-.days {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.day {
-    flex: 1;
-    border: 1px solid #ddd;
-    padding: 20px; 
-    text-align: center;
+    height: 80px; 
+    margin: 5px; 
 }
 
 .day-top,
