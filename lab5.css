@@ -47,10 +47,17 @@ img {
     margin-top: 20px;
 }
 
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .work-item {
-    margin-bottom: 20px;
+    width: 48%; 
     padding: 10px;
-    transition: background-color 0.3s ease; 
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .work-item:hover {
